@@ -1,0 +1,42 @@
+/* les bases */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    color: #555;
+    margin: 0;
+    
+    
+}
+.container{
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+    
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem;
+        background-color: #000;
+    }
+    
+}
+
+/* sections */
+
+.header{
+    background: indigo;
+    border: 1px solid #000;
+}
+
