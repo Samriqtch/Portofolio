@@ -15,6 +15,12 @@ body {
     
     
 }
+.list-unstyled{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     padding: 1rem 2rem;
     display: flex;
@@ -38,6 +44,19 @@ body {
 
 .header{
     background: indigo;
-    border: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
+
+
+.header .logo {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 1000;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    background:turquoise;
+}
+
+.header li {
+    display: inline-flex;
+}
