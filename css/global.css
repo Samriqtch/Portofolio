@@ -60,7 +60,9 @@ a {
     letter-spacing: 2px;
     background:turquoise;
 }
-
+.navbar{
+    display: none;
+}
 .header li {
     display: inline-flex;
     align-items: center;
@@ -68,4 +70,9 @@ a {
 }
 .header  a{
     color: blue;
+}
+
+.burger {
+    display: none;
+
 }
