@@ -1,0 +1,155 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    display: flex;
+  }
+  
+  .menu li {
+    list-style: none;
+    margin-right: 10px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .socials {
+    display: flex;
+  }
+  
+  .socials li {
+    list-style: none;
+    margin-right: 10px;
+  }
+  
+  .burger {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .burger .bar {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #333;
+    margin: 4px 0;
+  }
+  
+  /* Main Section */
+  .moi {
+    margin: 40px 0;
+  }
+  
+  .moi__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .moi__item.left {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .moi__item.right {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* About Section */
+  #About {
+    margin: 40px 0;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .grid_item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Services Section */
+  #services {
+    margin: 40px 0;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .services {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .services__item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .content__item {
+    flex: 1;
+  }
+  
+  .content__item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .content__item p {
+    margin-bottom: 10px;
+  }
+  
