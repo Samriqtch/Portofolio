@@ -32,6 +32,9 @@ a {
     text-align: center;
     justify-content: center;
 }
+.navbar{
+    display: none;
+}
 
 @media screen and (min-width: 750px) {
     
@@ -39,7 +42,7 @@ a {
         max-width: 900px;
         margin: 0 auto;
         padding: 2rem;
-        background-color: #000;
+        background:white;
     }
     
 }
@@ -48,7 +51,7 @@ a {
 
 .header{
     background: indigo;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid white;
 }
 
 
@@ -60,9 +63,7 @@ a {
     letter-spacing: 2px;
     background:turquoise;
 }
-.navbar{
-    display: none;
-}
+
 .header li {
     display: inline-flex;
     align-items: center;
@@ -73,6 +74,7 @@ a {
 }
 .socials .icon {
     float: right;
+    height: 18px;
 
 }
 
