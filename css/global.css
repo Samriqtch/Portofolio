@@ -16,6 +16,10 @@ body {
      
 }
 
+.navbar{
+    display: column;
+    text-align: center;
+}
 a {
     text-decoration: none;
 } 
@@ -48,9 +52,7 @@ img {
 .grid_item {
     width: 100%;
 }
-.navbar{
-    display: none;
-}
+
 
 @media screen and (min-width: 750px) {
     
@@ -130,6 +132,15 @@ img {
     flex: 1 0 50%;
     align-items: center;
 
+}
+
+@media screen and (max-width:750px) {
+    .moi__item .left {
+        order: 2;
+    }
+    .moi__item .right {
+        order: 1;
+    }
 }
 @media screen and (min-width:750px) {
 
