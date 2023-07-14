@@ -12,12 +12,15 @@ body {
     font-size: 1.6rem;
     color: #555;
     margin: 0;
-    
-    
+    text-align: center;
+     
 }
 
 a {
     text-decoration: none;
+} 
+img {
+    max-width: 100%;
 }
 .list-unstyled{
     list-style: none;
@@ -27,10 +30,20 @@ a {
 
 .container{
     padding: 1rem 2rem;
+}
+.d-flex {
     display: flex;
     align-items: center;
-    text-align: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid_item {
+    width: 100%;
 }
 .navbar{
     display: none;
