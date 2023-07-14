@@ -21,6 +21,7 @@ a {
 } 
 img {
     max-width: 100%;
+
 }
 .list-unstyled{
     list-style: none;
@@ -55,7 +56,9 @@ img {
         max-width: 900px;
         margin: 0 auto;
         padding: 2rem;
-        background:white;
+    }
+    .grid_item {
+        max-width: 50%;
     }
     
 }
@@ -84,6 +87,18 @@ img {
 }
 .header  a{
     color: blue;
+}
+.header a:hover {
+    color: red;
+}
+
+.header .right {
+    display: flex;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
 }
 .socials .icon {
     float: right;
