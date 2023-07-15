@@ -10,9 +10,10 @@ html {
 body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.6rem;
-    color: #555;
+    color: white;
     margin: 0;
     text-align: center;
+    background-color: rgba(0, 0, 0, 2.5) ;
      
 }
 /*Barre de menun , accueil ,about etc ..*/
@@ -91,7 +92,8 @@ section {
     font-weight: 1000;
     font-size: 2rem;
     letter-spacing: 2px;
-    background:turquoise;
+    background-color: rgba(75, 0, 130, 29); /* Fond semi-transparent avec 50% d'opacité */
+    text-decoration-color: white;
 }
 
 .header li {
