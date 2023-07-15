@@ -75,6 +75,10 @@ img {
 section {
     padding: 5.5rem a;
 }
+
+.section .title {
+    text-transform: uppercase;
+}
 .header{
     background: indigo;
     border-bottom: 1px solid white;
@@ -142,9 +146,6 @@ section {
 
 }
 
-.moi .title {
-    font-size: 2rem ;
-}
 
 @media screen and (max-width:750px) {
     .moi__item .left {
@@ -158,6 +159,11 @@ section {
 
     .moi__item{
         flex: 1 0 50%;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .moi .title {
+        font-size: 3rem ;
     }
     .moi__avatar img {
         border-radius: 60%;
