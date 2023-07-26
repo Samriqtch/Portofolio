@@ -27,8 +27,8 @@ body {
   
   .navbar ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 25;
+    padding: 5;
   }
   
   .navbar li {
@@ -39,7 +39,7 @@ body {
     display: block;
     padding: 14px 16px;
     text-decoration: none;
-    color: #333;
+    color: #f62525;
   }
   
   .dropdown {
@@ -50,8 +50,8 @@ body {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
+    background-color: #dc2e2e;
+    min-width: 50px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
   
@@ -84,7 +84,7 @@ img {
 }
 
 .container{
-    padding: 1rem 2rem;
+    padding: 1rem 5rem;
 }
 .d-flex {
     display: flex;
@@ -113,8 +113,6 @@ img {
     width: 100%;
   }
   
-
-  
   .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -124,44 +122,19 @@ img {
   
   .project-item {
     display: inline-block;
-    text-align: center;
+    text-align: right;
     margin: 10px;
     flex-direction: column;
   }
   
   .project-item img {
-    width: 10%;
+    width: 50%;
     height: auto;
   }
   
   .project-title {
-    margin-top: 10px;
+    margin-top: 25px;
   }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (min-width: 750px) {
@@ -169,7 +142,7 @@ img {
     .container {
         max-width: 900px;
         margin: 0 auto;
-        padding: 2rem;
+        padding: 5rem;
     }
     .grid_item {
         max-width: 50%;
@@ -199,6 +172,8 @@ section {
     font-size: 2rem;
     letter-spacing: 2px;
     background-color: rgba(75, 0, 130, 29); /* Fond semi-transparent avec 50% d'opacité */
+    animation-name: unset;
+    animation-duration: 2s;
     text-decoration-color: white;
 }
 
