@@ -208,12 +208,17 @@ section {
     text-transform: uppercase;
 }
 
+footer{
+    background: indigo;
+}
 .socials {
     display: flex;
 }
 .socials a {
     display: inline-block;
     align-items: center;
+   justify-content: space-between;
+   padding: 1rem;
 }
 .socials .icon {
     float: right;
