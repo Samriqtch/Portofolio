@@ -15,6 +15,25 @@ body {
     text-align: center;
     background-color: rgba(0, 0, 0, 2.5) ;
     background-image: linear-gradient(to bottom right,black,indigo);
+    
+    
+    .gradient-background{
+        background:linear-gradient(300deg,deepskyblue,darkviolet,black) ;
+        animation: gradient-animation 5s ease infinite;
+    }
+    @keyframes gradient-animation {
+        0% {
+            background-position:0% 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+        
+        
      
 }
 /*Barre de menun , accueil ,about etc ..*/
@@ -238,6 +257,7 @@ footer{
     background:black;
     color:white;
     padding: 10px;
+    background-image: linear-gradient(to top ,black,indigo);
 }
 
 .moi .grid {
@@ -250,6 +270,7 @@ footer{
     flex: 1 0 50%;
     align-items: center;
     text-align: center;
+    
 
 }
 
