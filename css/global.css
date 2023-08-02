@@ -162,6 +162,7 @@ img {
     justify-content: space-between;
 }
 /* Présentation page d'accueil*/
+
 .grid {
     display: flex;
     flex-wrap: wrap;
